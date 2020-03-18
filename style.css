@@ -220,6 +220,8 @@ body {
 /* +INFOCONTENT-MAIN */
 .info__content-main {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
   margin: 125px 0;
   flex-wrap: wrap;
 }
@@ -451,7 +453,106 @@ body {
   margin: 0 auto 60px auto;
 }
 /* -PRICING PLAN */
+/* +OUR TEAM */
+.title-pos_modified {
+  margin-bottom: 10px;
+}
+.article-pos_modified {
+  margin-bottom: 15px;
+}
+.info__content-main_pos-modified {
+  margin: 125px auto;
+}
+.content-main__block_pos-modified {
+  margin: auto 15px;
+}
+.block__our-team-soc {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 15px auto;
+}
+.our-team-soc__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 50px;
+  margin: 0 7px;
+}
+.our-team-soc__link:hover .our-team-soc__item_size-modified {
+  transform: scale(2.5);
+  color: #3949ab;
+}
+.our-team-soc__item_size-modified {
+  color: #00897b;
+  transform: scale(2);
+}
+.our-team__navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 125px auto;
+}
 
+/* +INPUT */
+.input-wrap {
+  display: block;
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.navigation__input-wrap input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  background-color: #00897b;
+  border-radius: 50%;
+}
+&:after {
+  display: none;
+  content: "";
+  position: absolute;
+  top: 8.5px;
+  left: 8.5px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #3949ab;
+}
+
+&:hover .navigation__input-wrap input ~ .checkmark {
+  background-color: #ccc;
+}
+
+.navigation__input-wrap input:checked ~ .checkmark {
+  background-color: #3949ab;
+}
+
+.navigation__input-wrap input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* -INPUT */
+
+/* -OUR TEAM */
 /* -PAGE */
 
 @media (max-width: 1200px) {
