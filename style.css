@@ -293,6 +293,7 @@ body {
   margin: 110px 110px 135px 110px;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   flex-wrap: wrap;
   flex-direction: row;
 }
@@ -371,7 +372,6 @@ body {
 .work-img-block {
   width: 370px;
   height: 370px;
-  margin-top: 15px;
   background: url(img/Layer_1.png);
   background-color: #484848;
 }
@@ -382,7 +382,7 @@ body {
 /* TEST */
 
 .category__navigation {
-  margin: 115px auto 0 auto;
+  margin: 115px auto;
 }
 .navigation__list {
   display: flex;
@@ -747,7 +747,18 @@ body {
 }
 
 /* -CONTACT US */
-
+.footer {
+  height: 40px;
+}
+.footer__title {
+  margin: 25px auto;
+  text-align: center;
+  color: #212121;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 1px;
+}
 /* -PAGE */
 
 @media (max-width: 1200px) {
