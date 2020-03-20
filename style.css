@@ -576,6 +576,41 @@ body {
 /* -INPUT */
 
 /* -OUR TEAM */
+/* +BLOG */
+.blog__content-main {
+  margin: 125px 100px;
+}
+.page__blog {
+  background-color: #e4fdf9;
+}
+.content-main__block_direction-modified {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.blog-info__block {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  align-self: flex-start;
+  margin: 60px 15px 185px 15px;
+}
+.title_font-size-modified {
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 1.25px;
+}
+.blog-info__link {
+  color: #212121;
+}
+.blog-info__link:hover {
+  color: #00897b;
+}
+
+/* -BLOG */
+
 /* -PAGE */
 
 @media (max-width: 1200px) {
