@@ -38,7 +38,7 @@
           alt=""
         />
       </div>
-      <div class="bottom-header header__bottom">
+      <div class="bottom-header header__bottom" id="home">
         <div class="banner bottom-header__banner">
           <h2 class="banner__topic">Web development project</h2>
           <p class="banner__text">
@@ -65,8 +65,40 @@
       </div>
     </header>
     <div class="container">
+      <nav class="container-nav">
+        <div class="container-menu-nav">
+          <ul class="list container-menu-nav__list">
+            <li class="menu-nav__item">
+              <a href="#home" class="menu-nav__link">Home</a>
+            </li>
+            <li class="menu-nav__item">
+              <a href="#about" class="menu-nav__link">About us</a>
+            </li>
+            <li class="menu-nav__item sub-menu menu-nav__item_hover">
+              <a href="#services" class="menu-nav__link">Nav</a>
+              <ul class="sub-list">
+                <li class="menu-nav__item">
+                  <a href="#latest work" class="sub__link">Latest work</a>
+                </li>
+                <li class="menu-nav__item">
+                  <a href="#price" class="sub__link">Our Prices</a>
+                </li>
+                <li class="menu-nav__item">
+                  <a href="#our team" class="sub__link">Our Team</a>
+                </li>
+                <li class="menu-nav__item">
+                  <a href="#blogs" class="sub__link">Our Blog</a>
+                </li>
+                <li class="menu-nav__item">
+                  <a href="#contact" class="sub__link">Send us a message</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
       <div class="page page__container">
-        <div class="info page__info">
+        <div class="info page__info" id="about">
           <div class="text info__text">
             <section class="section text__section">
               <h2 class="section__title">About us</h2>
@@ -296,7 +328,7 @@
             </div>
           </div>
         </div>
-        <div class="latest-work page__latest-work">
+        <div class="latest-work page__latest-work" id="latest work">
           <div class="info latest-work__info">
             <div class="text info__text">
               <section class="section text__section">
@@ -504,7 +536,7 @@
             </div>
           </div>
         </div>
-        <div class="our-team page__our-team">
+        <div class="our-team page__our-team" id="our team">
           <div class="info our-team__info">
             <div class="text info__text">
               <section class="section text__section">
@@ -788,7 +820,7 @@
             </nav>
           </div>
         </div>
-        <div class="contact-us page__contact-us">
+        <div class="contact-us page__contact-us" id="contact">
           <img src="img/contact_us_bcg.png" class="contact-us__image" alt="" />
           <div class="info contact-us__info">
             <div class="text info__text">
